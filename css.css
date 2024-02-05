@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif !important;
+    text-decoration: none   ;
+}
+
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+body{
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: 2000px;
+    background: #F2F2F2;
+    position: relative;
+    overflow: hidden;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 119px;
+}
+/* modal tayorlash basket uchun */
+.basket{
+    width: 350px;
+height: 492px;
+background-color: rgb(255, 255, 255);
+position: absolute;
+top: 100px;
+right: 0;
+transform: translateX(350px);
+transition: 0.8s ease-in-out;
+box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+border: 1px solid black;
+
+}
+
+.basket > span{
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.n-left >a{
+    color: #000;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.n-left > a>span{
+    color: #FF8F52;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+
+.n-center{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+.n-center > a{
+    color: #000;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+transition: 0.3s ease-in-out;
+}
+.n-center > a:hover{
+    color: #FF8F52;
+}
+
+.n-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.n-right >button{
+    background: #F2F2F2;
+}
+
+
+/* section1 start */
+.section1{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 75px 120px;
+    gap: 26px;
+   
+}
+.left-section1{
+    /* width: 557px; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.left-section1 > p{
+    color: #121212;
+font-family: Roboto;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-wrap: balance;
+}
+.left-section1 > span{
+    color: #838383;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 36px 0 46px 0;
+}
+
+.left-section1 > button{
+    width: 103px;
+height: 40px;
+flex-shrink: 0;
+    background: #FF8F52;
+border-radius: 8px;
+color: #FFFFFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;}
+
+.right-section1{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+/* section1 end */
+
+
+/* section2 start */
+
+.section2{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 120px;
+    gap: 26px; */
+}
+.section2> p{
+    text-align: center;
+    color: #000;
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+
+.card{
+    width: 287px;
+height: 356px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #ffffff;
+padding: 17px;
+display: flex;
+flex-direction: column;
+align-items: start;
+}
+
+.card > p{
+    color: #000;
+font-family: Roboto;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-top: 9px;
+}
+
+.price > span{
+    color: #838383;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.price{
+    padding-top: 38px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price > button{
+    color: #FF8F52;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: none;
+display: flex;
+
+align-items: center;
+gap: 2px;
+
+}
+
+
+.modalcard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modalcard > img{
+    width: 50px;
+    height: 50px;
+}
